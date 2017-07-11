@@ -1,0 +1,22 @@
+@base <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rel: <http://www.perceive.net/schemas/relationship/> .
+
+
+<#zhuwenkun>
+	a foaf:Person;
+	foaf:title "Mr.";
+	foaf:firstName "Wenkun";
+	foaf:lastName "Zhu";
+	foaf:mbox <mailto:zhuwk3@mail2.sysu.edu.cn>;
+	foaf:homepage <http://www.baidu.com>;
+	foaf:photo <http://www.baidu.com>;
+	foaf:phone "15521113177";
+	foaf:konws <#bear>;
+	foaf:favoriteFood "watermelon";
+	foaf:favoriteMovie "three idiots";
+	foaf:currentProject "Semantix Web";
+	foaf:id "15331444";
+	foaf:age "20".

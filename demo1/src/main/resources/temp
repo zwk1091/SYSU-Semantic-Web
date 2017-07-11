@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:rel="http://www.perceive.net/schemas/relationship/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+    <rdf:Description rdf:about="http://example.org/#wanqun">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mr.</foaf:title>
+        <foaf:firstName xml:lang="en">Qun</foaf:firstName>
+        <foaf:firstName xml:lang="zh">群</foaf:firstName>
+        <foaf:lastName xml:lang="en">Wan</foaf:lastName>
+        <foaf:lastName xml:lang="zh">万</foaf:lastName>
+        <foaf:mbox rdf:resource="mailto:inception1927@gmail.com"/>
+        <foaf:homepage rdf:resource="http://www.Inceptionk.org"/>
+        <foaf:photo rdf:resource="https://avatars2.githubusercontent.com/u/19149556?v=3&amp;s=400"/>
+        <foaf:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13719342743</foaf:phone>
+        <foaf:knows rdf:resource="http://example.org/#Nolan"/>
+        <foaf:favoriteFood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LiHao</foaf:favoriteFood>
+        <foaf:favoriteMovie rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstellar</foaf:favoriteMovie>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</foaf:age>
+        <foaf:favoriteMusic rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MoonLight</foaf:favoriteMusic>
+        <foaf:studentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15331291</foaf:studentID>
+    </rdf:Description>
+
+</rdf:RDF>

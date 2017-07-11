@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rel="http://www.perceive.net/schemas/relationship/">
+
+<rdf:Description rdf:about="http://example.org/#zhuwenkun">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<foaf:title>Mr.</foaf:title>
+	<foaf:firstName>Wenkun</foaf:firstName>
+	<foaf:lastName>Zhu</foaf:lastName>
+	<foaf:mbox rdf:resource="mailto:zhuwk3@mail2.sysu.edu.cn"/>
+	<foaf:homepage rdf:resource="http://www.baidu.com"/>
+	<foaf:phone>15521113177</foaf:phone>
+	<foaf:konws rdf:resource="http://example.org/#bear"/>
+	<foaf:favoriteFood>watermelon</foaf:favoriteFood>
+	<foaf:favoriteMovie>three idiots</foaf:favoriteMovie>
+	<foaf:currentProject>Semantix Web</foaf:currentProject>
+	<foaf:id>15331444</foaf:id>
+	<foaf:age>20</foaf:age>
+</rdf:Description>
+
+</rdf:RDF>
